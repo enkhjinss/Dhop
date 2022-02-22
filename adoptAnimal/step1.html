@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>step 1</title>
+    <link rel="stylesheet" href="./css_files/flex.css"> 
+    <link rel="icon" href="./pictures/favicon.png">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Montserrat', sans-serif;  
+        }
+        main {
+            height: 100vh;
+            width: 100vw;
+            background: #ADBFE4;
+        }
+        .img {
+            height: 30vh;
+            width: 80vw;
+            background-image: url(./pictures/Group\ 15.svg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            margin: 24vh 0 7vh 0;
+        }
+        h1 {
+            font-weight: 600;
+            font-size: 15px;
+            margin-bottom: 2vh;
+        }
+        .container {
+            margin: 0 5vw 7vh 5vw;
+        }
+        p{
+            font-weight: 500;
+            font-size: 15px;
+            color: #FFFFFF;
+        }
+    </style>
+</head>
+<body>
+    <main class="flex column align-center">
+        <div class="img"></div>
+        <div class="flex column container">
+            <h1>Step 1</h1>
+            <span>
+            <p>Please note that you cannot adopt animals from us if you are under 18 years old!</p>
+            </span>
+        </div>
+        <img class="next-btn" src="./pictures/nextButton.svg">
+    </main>
+</body>
+</html>

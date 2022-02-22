@@ -10,11 +10,13 @@ main {
     background: #C0A7EF;
 }
 .img-logo {
-    height: 25%;
+    height: 112px;
     width: 30%;
     background-image: url(../pictures/logo.svg);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: contain;
+    margin: 20vh 0 3vh 0;
 }
 
 .name :first-child {
@@ -25,12 +27,18 @@ main {
     font-size: 23px;
     font-weight: 500;
 }
+.name {
+    margin-bottom: 20vh;
+}
+.description {
+    margin-bottom: 3vh;
+}
 
-.description :first-child , .description :last-child {
+.container :first-child , .description :last-child {
     color: #000000;
     font-weight: 600;
 }
-.description :nth-child(2) {
+.container :nth-child(2) {
     color: white;
     font-weight: 500;
 }
@@ -44,6 +52,8 @@ main {
     color:  #FFFFFF;
     border: none;
     border-radius: 16px;
+    font-size: 15px;
+    font-weight: 600;
 }
 
 
